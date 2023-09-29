@@ -15,10 +15,14 @@ public class HelloToGit {
      */
     public static void main(String[] args) {
         showMessage();
+        showBye();
     }
     
     public static void showMessage() {
         System.out.println("Hello To Git");
     }
     
+        public static void showBye() {
+        System.out.println("Bye");
+    }
 }
